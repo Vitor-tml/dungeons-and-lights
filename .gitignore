@@ -1,0 +1,11 @@
+/build/
+/.vscode/
+# Arquivos binários
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
