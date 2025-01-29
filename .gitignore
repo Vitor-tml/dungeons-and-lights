@@ -1,3 +1,4 @@
+# Diretório de construção
 /build/
 /.vscode/
 # Arquivos binários
@@ -9,3 +10,33 @@
 *.lib
 *.so
 *.dylib
+
+# Diretórios de bibliotecas 
+/libs/SFML-2.6.1/
+/libs/box2d
+# Diretório do vscode teste
+/.vs-code
+
+# Diretórios de configuração do CMake
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Arquivos de projeto da IDE
+*.code-workspace
+/.vscode/
+/.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Temporário uml
+/docs/uml/diagrama-de-classes.~ml
